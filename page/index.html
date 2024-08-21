@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title> Login - Legado PACS </title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div><img class="logo-pioxii-login" src="../assets/logo-pioxii.png" alt="logo-pioxii"></div>
+        <div>
+            <h1>Legado PACS</h1>
+        </div>
+        <form class="form-index" action="/login" method="post">
+            <div class="form-group-login">
+                <label class="login-label" for="username">Login:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group-login">
+                <label class="senha-label" for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="button-login">
+                <button type="submit" onclick="access(); return false">Entrar</button>
+            </div>
+            <div>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <div>
+                <a href="#"><img src="../assets/logout_24dp_333_FILL0_wght400_GRAD0_opsz24.svg" alt="Sair"
+                        title="Sair"></a>
+            </div>
+        </form>
+    </div>
+    <script src="/page/main.js"></script>
+</body>
+
+</html>

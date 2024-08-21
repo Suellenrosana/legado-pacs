@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    outline: none;
+}
+
+body {
+    background-color: #E2E2E2;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+section {
+    background-color: rgba(235, 232, 232, 0.349);
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-search {
+    background-color: #d1cfcfb7;
+    border: #faf9f9 3px inset;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    min-width: 100%;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.logo-pioxii {
+    width: 100px;
+    padding: 2px;
+}
+
+.logo-pioxii-login {
+    width: 130px;
+    margin-right: 35px;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-settings {
+    display: flex;
+    gap: 30px;
+    margin-right: 15px;
+}
+
+.nav-settings img:hover {
+    opacity: 0.8;
+
+}
+
+.nav-settings img:active {
+    opacity: 0.6;
+}
+
+.login-container {
+    background-color: #d1cfcfb7;
+    padding: 50px;
+    border-radius: 5px;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: #faf9f9 3px inset;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 95%;
+    min-height: 95%;
+    margin: 10px;
+    gap: 15px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    background-color: #d1cfcfb7;
+    min-width: 100%;
+    min-height: 40%;
+    border: #faf9f9 3px outset;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Formulario */
+.form-group-atendimento {
+    grid-area: atendimento;
+}
+
+.form-group-nome {
+    grid-area: nome;
+}
+
+.form-group-sexo {
+    grid-area: sexo;
+}
+
+.form-group-id-exame {
+    grid-area: id-exame;
+}
+
+.form-group-data-exame {
+    grid-area: data-exame;
+}
+
+.form-group-modalidades {
+    grid-area: modalidades;
+}
+
+#searchForm {
+    grid-template-areas:
+        "atendimento nome nome"
+        "sexo id-exame data-exame"
+        "modalidades modalidades modalidades";
+}
+
+#searchForm {
+    display: grid;
+    gap: 10px;
+    text-align: start;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5f0118;
+    font-size: 22px;
+}
+
+.login-label,
+.senha-label {
+    color: #333;
+    font-size: 24px;
+
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: rgba(245, 240, 240, 0.582);
+    height: 45px;
+    width: 100%;
+    padding-left: 18px;
+    font-size: 20px;
+    color: #3d393a;
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    color: #333;
+}
+
+.checkbox-group {
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    min-width: 99%;
+}
+
+h1 {
+    font-weight: 600;
+    color: #800020;
+    font-size: 26px;
+    text-shadow: #574f52 0.5px 0.5px 0.5px;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 26px;
+    color: #3d393a;
+    text-shadow: #b4b3b3 0.5px 0.5px 0.5px;
+}
+
+h3 {
+
+    font-size: 24px;
+    color: #3d393a;
+    text-shadow: #b4b3b3 0.5px 0.5px 0.5px;
+}
+
+button {
+    background-color: #800020;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 145px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button img {
+    width: 25px;
+    height: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.button-login {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 80%;
+    min-height: 100%;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    background-color: #ccc;
+    border: 2px solid #acaaaa;
+    padding: 15px;
+    width: calc(100vw/6);
+}
+
+th {
+    color: #5f0118;
+}
+
+td {
+    color: #333;
+}

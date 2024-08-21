@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Legado PACS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar-search">
+        <div class="nav-logo">
+            <img class="logo-pioxii" src="../assets/logo-pioxii.png" alt="logo-pioxii">
+            <h1>Legado PACS</h1>
+        </div>
+        <div class="nav-settings">
+            <a href="#"><img src="../assets/settings_account_box_24dp_333_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Alterar Senha" title="Alterar Senha"></a>
+            <a href="#"><img src="../assets/logout_24dp_333_FILL0_wght400_GRAD0_opsz24.svg" alt="Sair" title="Sair"></a>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="container">
+
+            <h2>Pesquisa de Exames</h2>
+            <form id="searchForm">
+
+                <div class="form-group-atendimento">
+                    <label for="atendimento">Nº do Atendimento:</label>
+                    <input type="text" id="atendimento" name="atendimento">
+                </div>
+
+                <div class="form-group-nome">
+                    <label for="nome">Nome do Paciente:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-group-sexo">
+                    <label for="sexo">Sexo do Paciente:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group-id-exame">
+                    <label for="idExame">ID do Exame:</label>
+                    <input type="text" id="idExame" name="idExame">
+                </div>
+
+                <div class="form-group-data-exame">
+                    <label for="dataExame">Data do Exame:</label>
+                    <input type="date" id="dataExame" name="dataExame">
+                </div>
+                <div class="form-group-modalidades">
+                    <label>Modalidades:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="modalidade" value="cr">CR</label>
+                        <label><input type="checkbox" name="modalidade" value="ct">CT</label>
+                        <label><input type="checkbox" name="modalidade" value="dx">DX</label>
+                        <label><input type="checkbox" name="modalidade" value="es">ES</label>
+                        <label><input type="checkbox" name="modalidade" value="hc">HC</label>
+                        <label><input type="checkbox" name="modalidade" value="mg">MG</label>
+                        <label><input type="checkbox" name="modalidade" value="nm">NM</label>
+                        <label><input type="checkbox" name="modalidade" value="mr">MR</label>
+                        <label><input type="checkbox" name="modalidade" value="ot">OT</label>
+                        <label><input type="checkbox" name="modalidade" value="pt">PT</label>
+                        <label><input type="checkbox" name="modalidade" value="rt">RT</label>
+                        <label><input type="checkbox" name="modalidade" value="sc">SC</label>
+                        <label><input type="checkbox" name="modalidade" value="us">US</label>
+                        <label><input type="checkbox" name="modalidade" value="xa">XA</label>
+                        <label><input type="checkbox" name="modalidade" value="all"><b>ALL</b></label>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            <div>
+                <button type="submit">Buscar<img class="icon-buscar"
+                        src="../assets/search_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="lupa"></button>
+
+            </div>
+        </div>
+
+        <!-- Resultados da busca serão exibidos aqui -->
+        <aside class="results">
+            <h3>Resultado da Busca</h3>
+            <table class="resultTable">
+
+                <tr>
+                    <th>Nº do Atendimento:</th>
+                    <th>Nome do Paciente:</th>
+                    <th>Sexo do Paciente:</th>
+                    <th>ID do Exame:</th>
+                    <th>Data do Exame:</th>
+                    <th>Modalidades:</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </aside>
+    </section>
+    <script src="/page/main.js"></script>
+
+</body>
+
+</html>
