@@ -7,7 +7,7 @@ Este projeto tem como objetivo desenvolver um protótipo funcional chamado “Le
 
 <ul>
 
-<li>Atender à necessidade do Hospital Pio XII, incluindo a equipe médica, técnicos e demais funcionários, no que diz respeito ao armazenamento de imagens médicas antigas, referentes ao período de 2010 a 2022.
+<li>Atender à necessidade do Hospital, incluindo a equipe médica, técnicos e demais funcionários, no que diz respeito ao armazenamento de imagens médicas antigas, referentes ao período de 2010 a 2022.
 <li>Construir uma interface simples e integração com equipamentos existentes foi uma das principais questões levantadas.
 <li>Desenvolver uma arquitetura eficiente para o sistema de gerenciamento de imagens, com foco em um investimento de baixo custo e na simplificação das buscas por imagens antigas por meio do sistema Legado PACS.
 <li>Prototipação Visual: Inclui telas de login, busca e visualização de imagens.
