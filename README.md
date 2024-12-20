@@ -30,4 +30,4 @@ Repositório do fronted:🚀
 https://github.com/Suellenrosana/legado-pacs
 
 <h2>🔍 Design Web</h2>
-<img src='[https://github.com/Suellenrosana/legado-pacs/blob/main/assets/Tela%20pesquisa%20Legado%20Pacs.png?raw=true](https://suellenrosana.github.io/legado-pacs/)'>
+<img src='https://github.com/Suellenrosana/legado-pacs/blob/main/assets/Tela%20pesquisa%20Legado%20Pacs.png?raw=true](https://suellenrosana.github.io/legado-pacs/)](https://github.com/Suellenrosana/legado-pacs/blob/main/assets/Tela%20pesquisa%20Legado%20Pacs.png?raw=true)'>
