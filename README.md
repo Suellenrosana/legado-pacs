@@ -1,4 +1,4 @@
-<h1> Legado PACS👩‍💻🧑‍💻</h1>
+<h1> Legado PACS 🏥</h1>
 
 Este projeto tem como objetivo desenvolver um protótipo funcional chamado “Legado PACS”, baseado no sistema PACS, com foco na gestão de imagens médicas antigas. O escopo do projeto abrange exames realizados no hospital entre os anos de 2010 até 2022, que atualmente estão armazenados de forma não otimizada em discos rígidos (HDs).
 <br>
