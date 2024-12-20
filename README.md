@@ -19,9 +19,9 @@ Este projeto tem como objetivo desenvolver um protótipo funcional chamado “Le
 </ul>
 
 <h3><b>Tecnologias utilizadas:</b></h3>
- Front-end: HTML, CSS e Java Script, 
- Back-end: Python e MongoDB.
- Obs: Somente o frontend esta presente neste repositorio.
+<li>Front-end: HTML, CSS e Java Script, 
+<li>Back-end: Python e MongoDB.
+<li>Obs: Somente o frontend esta presente neste repositorio.
 <br>
 <br>
 
